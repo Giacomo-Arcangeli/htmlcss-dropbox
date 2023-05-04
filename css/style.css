@@ -6,6 +6,7 @@
 }
 body{
     font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
 }
 
 /* UTILITIES */
@@ -20,6 +21,17 @@ a{
 .big-container{
     max-width: 1080px;
     margin: 0 auto;
+}
+.small-container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+h2{
+    font-size: 33px;
+}
+h3{
+    font-size: 21px;
+    line-height: 1.7rem;
 }
 
 /* HEADER */
@@ -50,7 +62,7 @@ header{
 /* header section */
 .header-section-title{
     font-size: 45px;
-    padding: 50px 5px;
+    padding: 50px 2px;
 }
 .header-section-content{
     display: flex;
@@ -59,7 +71,7 @@ header{
     flex-basis: 30%;
 }
 .header-p{
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 
 .section-start-button{
@@ -68,15 +80,95 @@ header{
     padding: 10px 15px;
 }
 .cancel{
-    padding: 30px 0;
+    padding: 40px 0;
 }
 .fa-arrow-down{
     font-size: 45px;
-    padding-top: 55px;
+    padding-top: 25px;
 }
 .h-section-right{
    flex-basis: 70%;
 }
 .h-section-right > img{
     width: 750px;
+    display: block;
+}
+
+/* MAIN */
+main{
+    margin-top: 150px;
+}
+
+/* business plan section */
+.check-box{
+    margin: 40px 0;
+}
+.check{
+    height: 18px;
+    width: 18px;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: bottom;
+    border: 5px solid rgb(0,97,255);
+    appearance: none;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.check-text{
+    margin-right: 40px;
+}
+
+/* MANCA UNA PARTE */
+
+
+/* partner section */
+.partner{
+    display: flex;
+}
+.partner-left{
+    flex-basis: 70%;
+}
+.partner-img{
+    width: 520px;
+    display: block;
+}
+.partner-right{
+    flex-basis: 30%;
+    margin-top: 60px;
+    margin-left: -60px;
+}
+.partner-title{
+    margin-bottom: 20px;
+}
+.partner-p{
+    margin-bottom: 35px;
+}
+.partner-button{
+    border: 1px solid black;
+    padding: 8px 12px;
+}
+
+/* operation section */
+.operation-section{
+    margin: 140px 0;
+}
+.operation-title{
+    margin-bottom: 50px;
+}
+.operation-row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+}
+.operation-col{
+    flex-basis: calc(100% / 3);
+    min-height: 300px;
+}
+.operation-card > img{
+    max-width: 268px;
+    display: block;
+}
+.operation-p{
+    padding: 20px 0;
+    width: 268px;
 }
