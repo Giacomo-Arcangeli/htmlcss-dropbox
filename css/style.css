@@ -39,9 +39,6 @@ li{
     max-width: 900px;
     margin: 0 auto;
 }
-.bor{
-    border: 2px dashed red;
-}
 
 /* HEADER */
 header{
@@ -115,12 +112,15 @@ header{
 
 /* MAIN */
 main{
-    margin-top: 150px;
+    margin-top: 200px;
 }
 
 /* business plan section */
+.business-plan-section{
+    
+}
 .check-box{
-    margin: 40px 0;
+    margin: 50px 0;
 }
 .select{
     height: 18px;
@@ -137,7 +137,78 @@ main{
     margin-right: 40px;
 }
 
-/* MANCA UNA PARTE */
+/* card */
+.plan-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -20px;
+}
+.plan-col{
+    flex-basis: calc(100% / 3);
+    font-size: 13px;
+    padding: 20px;
+    font-size: 12px;
+}
+.plan-card{
+    border: 1px solid rgb(97,97,97);
+    min-height: 100%;
+    position: relative;
+}
+.try{
+    color: white;
+    background-color: rgb(0,97,255);
+    padding: 10px 30px;
+}
+.call{
+    color: white;
+    background-color: rgb(0,97,255);
+    padding: 10px 75px;
+}
+.buy{
+    text-decoration: underline;
+    color: rgb(0,97,255);
+}
+.li-separator{
+    border-bottom: 1px solid rgb(97,97,97);
+    width: 60px;
+}
+.li-text{
+    padding: 30px;
+}
+.li-text li {
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+    margin-bottom: 30px;
+}
+.plan-title{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(97,97,97);
+    padding: 10px 0;
+    gap: 5px;
+    align-items: baseline;
+}
+.fa-check{
+    color:rgb(0,97,255);
+}
+.plan-col-large{
+    flex-basis: 100%;
+    min-height: 500px;
+    font-size: 13px;
+    padding: 20px;
+    margin-bottom: -100px;
+}
+.plan-card-large{
+    border: 1px solid rgb(97,97,97);
+    min-height: 10%;
+    position: relative;
+}
+.call-office{
+    position: absolute;
+    right: 30px;
+    top: 70px;
+}
 
 
 /* partner section */
@@ -190,7 +261,7 @@ main{
     width: 268px;
 }
 
-/* client */
+/* client section */
 .client{
     width: 60%;
 }
